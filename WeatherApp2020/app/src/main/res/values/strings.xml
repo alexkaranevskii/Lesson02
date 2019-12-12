@@ -3,4 +3,5 @@
     <string name="sky_now">Overcast</string>
     <string name="pressure">Pressure</string>
     <string name="dailyforecast">Daily forecast</string>
+    <string name="exit">Exit</string>
 </resources>

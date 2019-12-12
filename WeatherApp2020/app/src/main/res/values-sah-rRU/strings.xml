@@ -4,4 +4,5 @@
     <string name="sky_now">Сплошная облачность</string>
     <string name="pressure">Давление</string>
     <string name="dailyforecast">Ежедневный прогноз</string>
+    <string name="exit">Выход</string>
 </resources>
