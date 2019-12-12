@@ -3,4 +3,5 @@
     <dimen name="text_size">28sp</dimen>
     <dimen name="time">30sp</dimen>
     <dimen name="TempO">20sp</dimen>
+    <dimen name="schedule">20sp</dimen>
 </resources>

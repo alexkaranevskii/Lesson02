@@ -70,6 +70,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.205" />
 
+
+    <TextView
+        android:id="@+id/textViewPress"
+        android:layout_width="62dp"
+        android:layout_height="45dp"
+        android:text="766"
+        android:textSize="@dimen/time"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="148dp"
@@ -84,10 +98,11 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="159dp"
-        android:layout_height="21dp"
-        android:layout_marginTop="504dp"
-        android:text="Расписание концертов"
+        android:layout_width="165dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="448dp"
+        android:text="@string/concert_schedule"
+        android:textSize="@dimen/schedule"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -97,7 +112,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
-        android:layout_marginTop="132dp"
+        android:layout_marginTop="168dp"
         android:layout_marginEnd="162dp"
         android:text="@string/exit"
         app:layout_constraintEnd_toEndOf="parent"
