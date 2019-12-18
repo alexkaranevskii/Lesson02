@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyApplicationW</string>
+    <string name="sky_now">Overcast</string>
+    <string name="pressure">Pressure</string>
+    <string name="dailyforecast">Daily forecast</string>
+    <string name="exit">Exit</string>
+    <string name="concert_schedule">Concert schedule</string>
+    <string name="peterburg">Peterburg</string>
+    <string name="select_your_city">Select your city</string>
+    <string name="title_activity_2">Select City</string>
+</resources>

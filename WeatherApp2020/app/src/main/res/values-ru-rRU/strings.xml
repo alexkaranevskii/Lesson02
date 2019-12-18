@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода от Пролетанго</string>
+    <string name="sky_now">Сплошная облачность</string>
+    <string name="pressure">Давление</string>
+    <string name="dailyforecast">Ежедневный прогноз</string>
+    <string name="exit">Выход</string>
+    <string name="concert_schedule">Расписание концертов</string>
+    <string name="peterburg">Санкт-Петербург</string>
+    <string name="select_your_city">Выбрать ваш город</string>
+    <string name="title_activity_2">Select City</string>
+</resources>
