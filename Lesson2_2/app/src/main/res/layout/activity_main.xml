@@ -14,14 +14,11 @@
         android:layout_gravity="center"
         android:orientation="vertical">
 
-        <CheckBox
-            android:textSize="50px"
-            android:id="@+id/checkBox"
-            android:checked="true"
+        <ListView
+            android:id="@+id/listView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="CheckBox" />
-
+            android:layout_height="wrap_content" >
+        </ListView>
 
         <Button
             android:id="@+id/button1"
@@ -32,6 +29,7 @@
             android:onClick="buttonClick"
             tools:layout_editor_absoluteX="164dp"
             tools:layout_editor_absoluteY="399dp" />
+
 
     </LinearLayout>
 
@@ -86,13 +84,7 @@
             android:layout_width="100dp"
             android:layout_height="32dp"
             android:text="9.43"
-            android:textSize="@dimen/text_size"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="10.077"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="10.038" />
+            android:textSize="@dimen/text_size"/>
 
         <TextView
             android:id="@+id/textViewCity"
@@ -175,7 +167,7 @@
             android:layout_marginStart="47dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="24dp"
-            android:src="@drawable/oblaka8"/>
+            android:src="@drawable/oblaka8" />
 
         <TextView
             android:id="@+id/textView4"
@@ -197,7 +189,6 @@
             android:text="Выбрать другой город"
             tools:layout_editor_absoluteX="164dp"
             tools:layout_editor_absoluteY="399dp" />
-
     </LinearLayout>
 
 
