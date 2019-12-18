@@ -6,6 +6,71 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:id="@+id/city_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_purple"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:textSize="50px"
+            android:id="@+id/checkBox"
+            android:checked="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CheckBox" />
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Выбрать"
+            android:onClick="buttonClick"
+            tools:layout_editor_absoluteX="164dp"
+            tools:layout_editor_absoluteY="399dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/load_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_light"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="For run App press Start"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="301dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Start"
+            android:onClick="buttonClick"
+            tools:layout_editor_absoluteX="164dp"
+            tools:layout_editor_absoluteY="399dp" />
+    </LinearLayout>
 
 
     <LinearLayout
