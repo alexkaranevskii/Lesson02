@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -13,7 +14,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity{
 
     private TextView textView;
-    String[] city= new String[]{"Москва","Санкт-Петербург",
+    String[] city = new String[]{"Москва","Санкт-Петербург",
     "Мурманск","Архангельск","Псков","Гатчина",
     "Волгоград","Тюмень","Дудинка","Нижневартовск",
     };
@@ -31,7 +32,6 @@ public class MainActivity extends AppCompatActivity{
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
         android.R.layout.simple_list_item_1, city);
-
         listView.setAdapter(adapter);
 
         working_layout = findViewById(R.id.working_layout);

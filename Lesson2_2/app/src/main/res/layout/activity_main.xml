@@ -10,7 +10,7 @@
         android:id="@+id/city_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/holo_purple"
+        android:background="@drawable/bg2_light"
         android:layout_gravity="center"
         android:orientation="vertical">
 
@@ -24,12 +24,11 @@
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="Выбрать"
             android:onClick="buttonClick"
             tools:layout_editor_absoluteX="164dp"
             tools:layout_editor_absoluteY="399dp" />
-
 
     </LinearLayout>
 
@@ -54,7 +53,7 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="For run App press Start"
             tools:layout_editor_absoluteX="176dp"
             tools:layout_editor_absoluteY="301dp" />
@@ -63,7 +62,7 @@
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="Start"
             android:onClick="buttonClick"
             tools:layout_editor_absoluteX="164dp"
@@ -75,7 +74,7 @@
         android:id="@+id/working_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/holo_green_dark"
+        android:background="@drawable/bg2_light"
         android:layout_gravity="center"
         android:orientation="vertical">
 
@@ -190,10 +189,5 @@
             tools:layout_editor_absoluteX="164dp"
             tools:layout_editor_absoluteY="399dp" />
     </LinearLayout>
-
-
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
